@@ -187,6 +187,18 @@ p {
 
 /* Nav End */
 
+/* Change navbar styling on scroll */
+
+.navigation-wrap.scroll-on{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background: white;
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+  transition:all .15s ease-in-out 0s;
+}
+
 /* Top Banner Start */
 
 .top-banner{
