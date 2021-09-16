@@ -82,8 +82,8 @@ h2 {
 }
 
 h4 {
-  color: var(--secondry-color);
-  font-family: var(--secondry-font);
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 800;
@@ -132,7 +132,7 @@ p {
 .white-btn {
   padding: 0.625rem 1.875rem;
   line-height: 25px;
-  background-color: var(--white-color);
+  background-color: #fff !important;
   border: 0.1875rem solid var(--white-color);
   color: var(--text-color);
   font-size: 0.9375rem;
@@ -146,7 +146,7 @@ p {
 }
 
 .white-btn:hover {
-  background-color: transparent;
+  background-color: transparent !important;
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
@@ -354,3 +354,29 @@ p {
 }
 
 /* Testimonial Section End */
+
+/* FAQ Section */
+
+.faq h4 span{
+  color:var(--secondary-color);
+  font-size: 1.875rem;
+  margin-right:0.3125rem;
+} 
+
+/* FAQ Section End */	
+
+/* Book Food */
+
+.book-food{
+  width:100%;
+  background: url(../images/bg/bg-3.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+}
+.book-food h2{
+  color: #fff !important;
+}
+
+/* Book Food End */
