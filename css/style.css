@@ -73,7 +73,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 2.25rem;
   text-transform: capitalize;
   font-family: var(--secondary-font);
@@ -224,10 +224,52 @@ p {
   padding: 2.5rem 0;
 }
 .counter-section p,
-h2 {
+.counter-section h2 {
   font-weight: bold;
   color: white !important;
   text-transform: uppercase;
 }
 
 /* counter section End */
+
+/* About Section */
+
+.about-section {
+  background: #fff !important;
+}
+.about-section .card,
+.about-section .card img {
+  border-radius: 0.625rem;
+}
+.about-section .text-sec{
+  padding-left: 2rem;
+}
+
+/* About | Food Type Section */
+
+.food-type{
+  padding-top: 3.25rem;
+}
+.food-type ul li{
+  font-size: 1rem;
+  color:  var(--text-color) ;
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+.food-type ul li::before{
+  position: absolute;
+  left: -2.1875rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+/* About | Food Type Section End */
+
+/* About Section End */
