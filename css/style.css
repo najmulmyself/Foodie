@@ -170,10 +170,13 @@ p {
   padding: 0 0.625rem;
   transition: all 200ms linear;
 }
+.navbar-toggler{
+  border:  none !important;
+}
 .navbar-toggler:focus {
   outline: unset;
   border: unset;
-  box-shadow: none;
+  box-shadow: none !important;
 }
 .nav-link {
   font-size: 0.9375rem;
