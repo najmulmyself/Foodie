@@ -35,3 +35,30 @@
           margin-bottom : 0.1rem !important;
       }
 }
+
+@media only screen and (max-width: 768px){
+    .newsletter{
+        width:75%;
+        margin:0 auto;
+      }
+      .newsletter .form-control{
+          margin-bottom: 5px;
+      }
+}
+@media only screen and (min-width: 578px){
+    .newsletter{
+        width:85%;
+        margin:0 auto;
+      }
+      .newsletter .form-control{
+          margin-bottom: 5px;
+      }
+}
+
+@media only screen and (max-width: 560px){
+    .footer .footer-link{
+        font-size:1rem;
+        color: #fff;
+        padding:0 .875rem;
+      }
+}
