@@ -407,3 +407,30 @@ p {
 }
 
 /* Newsletter End */
+
+/* Footer Section */
+
+.footer{
+  background: var(--primary-color);
+}
+.footer .footer-link{
+  font-size:1rem;
+  color: #fff;
+  padding:0 1.875rem;
+}
+.footer .footer-link:hover{
+  color:#fff !important;
+}
+.footer a i{
+  font-size: 1.5rem;
+  color:#fff;
+  padding:0 1rem;
+  transition: all 0.3s;
+}
+.footer a i:hover{
+  transform:translateY(-3px);
+}
+.copy-right p a{
+  color: #fff !important;
+}
+/* Footer Section End */
